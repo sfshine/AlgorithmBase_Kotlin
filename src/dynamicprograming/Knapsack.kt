@@ -1,4 +1,4 @@
-package interview
+package dynamicprograming
 
 import kotlin.math.max
 
@@ -29,7 +29,7 @@ lateinit var memo: Array<IntArray>
 fun main(args: Array<String>) {
     var w = intArrayOf(1, 2, 3)
     var v = intArrayOf(6, 10, 12)
-    var c = 10
+    var c = 5
     var time = System.currentTimeMillis()
     memo = Array(w.size) { IntArray(c + 1) { -1 } }
     println(bestValue(w, v, w.size - 1, c))
