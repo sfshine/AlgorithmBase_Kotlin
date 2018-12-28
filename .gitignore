@@ -1,6 +1,6 @@
 #Add by lichao
-.idea
-.idea/*
+#.idea
+#.idea/*
 target/
 conf/config_*.txt
 bin/

@@ -14,8 +14,8 @@ private fun bestValue(w: IntArray, v: IntArray, index: Int, c: Int): Int {
     if (c == 0) return 0
     if (index == 0) return v[index]
     if (memo[index][c] != -1) {
-        memo[index][c]
         println("memo[$index][$c] = ${memo[index][c]}")
+        return memo[index][c]
     }
     var res = bestValue(w, v, index - 1, c)
     if (c >= w[index]) {
