@@ -2,41 +2,33 @@ package interview
 
 fun main(args: Array<String>) {
     var contentView = initViewGroupDeepth1()
-    println("maxDeepthOfViewGroup ${maxDeepthOfViewGroup(contentView)}")
+    println("depthOfViewGroup ${depthOfViewGroup(contentView)}")
 
     contentView = initViewGroupDeepth2()
-    println("maxDeepthOfViewGroup ${maxDeepthOfViewGroup(contentView)}")
+    println("depthOfViewGroup ${depthOfViewGroup(contentView)}")
 
     contentView = initViewGroupDeepth3()
-    println("maxDeepthOfViewGroup ${maxDeepthOfViewGroup(contentView)}")
+    println("depthOfViewGroup ${depthOfViewGroup(contentView)}")
 
-    contentView = initViewGroupDeepth4()
-    println("maxDeepthOfViewGroup ${maxDeepthOfViewGroup(contentView)}")
+    contentView = initViewGroupDeepth5()
+    println("depthOfViewGroup ${depthOfViewGroup(contentView)}")
 }
 
-private fun maxDeepthOfViewGroup(view: View): Int {
-    //来到这个函数, 默认的深度是deepth = 1
-    //如果是view, 则返回 deepth
-    //如果是viewgroup
-    //  如果vg没有孩子返回 deepth
-    //  如果vg有孩子
-    //  寻找孩子中最大的深度max, deepth += max
-    var deepth = 1
-    if (view is ViewGroup) {
-        if (view.childs.isEmpty()) {
-            return deepth
-        } else {
-            var max = 0
-            for (child in view.childs) {
-                max = Math.max(max, maxDeepthOfViewGroup(child))
-            }
-            deepth += max
-            return deepth
-        }
+/**
+ *  来到这个函数, 默认的深度是deepth = 1
+ *  如果没有孩子,则返回 1, 此为退出条件
+ *  否则寻找孩子中最大的深度max
+ */
+private fun depthOfViewGroup(view: View): Int {
+    return if (view !is ViewGroup || view.childs.isEmpty()) {
+        1
     } else {
-        return deepth
+        var max = 1
+        for (child in view.childs) {
+            max = Math.max(max, depthOfViewGroup(child) + 1)//孩子深度还要加上父亲的层级
+        }
+        return max
     }
-
 }
 
 private fun initViewGroupDeepth1(): ViewGroup {
@@ -71,7 +63,7 @@ private fun initViewGroupDeepth3(): ViewGroup {
     return contentView
 }
 
-private fun initViewGroupDeepth4(): ViewGroup {
+private fun initViewGroupDeepth5(): ViewGroup {
 
     var contentView = ViewGroup(0)
 
@@ -84,7 +76,9 @@ private fun initViewGroupDeepth4(): ViewGroup {
     vg11.addView(vg21)
 
 
-    vg21.addView(View(31))
+    var vg31 = ViewGroup(31)
+    vg31.addView(View(41))
+    vg21.addView(vg31)
     return contentView
 }
 

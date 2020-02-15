@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b086c5b-fa64-47a6-bbd0-b80ace7ece0f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/dynamicprograming/Knapsack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprograming/Knapsack.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamicprograming/KnapsackNoRecruit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicprograming/KnapsackNoRecruit.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/ParseArray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/DeepthOfViewGroup.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/DeepthOfViewGroup.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,19 +16,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dynamicprograming/Knapsack.kt">
+        <entry file="file://$PROJECT_DIR$/src/interview/DeepthOfViewGroup.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+            <state relative-caret-position="180">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dynamicprograming/KnapsackNoRecruit.kt">
+        <entry file="file://$PROJECT_DIR$/src/tree/BST.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="24" column="97" selection-start-line="24" selection-start-column="97" selection-end-line="24" selection-end-column="97" />
+            <state relative-caret-position="-581">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -37,7 +38,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>n</find>
+      <find>maxDeepthOfViewGroup</find>
+      <find>deepthOfViewGroup</find>
+      <find>View</find>
     </findStrings>
+    <replaceStrings>
+      <replace>deepthOfViewGroup</replace>
+      <replace>ViewGroup</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,21 +58,21 @@
         <option value="$PROJECT_DIR$/src/dynamicprograming/Solution2.java" />
         <option value="$PROJECT_DIR$/src/dynamicprograming/KnapsackNoRecruit.kt" />
         <option value="$PROJECT_DIR$/src/dynamicprograming/Knapsack.kt" />
+        <option value="$PROJECT_DIR$/src/interview/DeepthOfViewGroup.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1428" />
-    <option name="height" value="820" />
+    <option name="width" value="1391" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,7 +95,49 @@
               <item name="AlgorithmBase_Kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgorithmBase_Kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="heap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmBase_Kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmBase_Kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmBase_Kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmBase_Kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmBase_Kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmBase_Kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="number" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmBase_Kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmBase_Kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmBase_Kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmBase_Kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="recruit_and_backstracking" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmBase_Kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmBase_Kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmBase_Kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmBase_Kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlgorithmBase_Kotlin" type="b2602c69:ProjectViewProjectNode" />
@@ -97,14 +147,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546005380461" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581775919518" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -112,10 +163,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/string" />
       <recent name="$PROJECT_DIR$/src/dynamicprograming" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/dynamicprograming" />
     </key>
   </component>
@@ -131,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.dynamicprograming.KnapsackNoRecruitKt">
+  <component name="RunManager" selected="Kotlin.interview.DeepthOfViewGroupKt">
     <configuration name="dynamicprograming.KnapsackKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmBase_Kotlin" />
       <option name="VM_PARAMETERS" />
@@ -158,8 +210,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="interview.DeepthOfViewGroupKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="AlgorithmBase_Kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="interview.DeepthOfViewGroupKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.interview.DeepthOfViewGroupKt" />
         <item itemvalue="Kotlin.dynamicprograming.KnapsackNoRecruitKt" />
         <item itemvalue="Kotlin.dynamicprograming.KnapsackKt" />
       </list>
@@ -177,18 +243,19 @@
       <updated>1545962861844</updated>
       <workItem from="1545962863126" duration="1320000" />
       <workItem from="1546000067786" duration="5001000" />
-      <workItem from="1546048517982" duration="628000" />
+      <workItem from="1546048517982" duration="843000" />
+      <workItem from="1581771979709" duration="3855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6949000" />
+    <option name="totallyTimeSpent" value="11019000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="23" width="1428" height="820" extended-state="0" />
+    <frame x="0" y="23" width="1391" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25685427" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26019272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -197,17 +264,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24313186" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997253" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24231242" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398524" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="10" weight="0.32936507" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.15934066" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.15867159" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -237,9 +304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interview/DeepthOfViewGroup.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Play-with-Algorithm-Interview-master/09-Dynamic-Programming/Course Code (Java)/05-0-1-knapsack/src/Solution2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -263,17 +327,48 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicprograming/Solution2.java" />
+    <entry file="file://$PROJECT_DIR$/src/string/DoubleToString.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/ParseArray.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicprograming/Knapsack.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dynamicprograming/KnapsackNoRecruit.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="360">
           <caret line="24" column="97" selection-start-line="24" selection-start-column="97" selection-end-line="24" selection-end-column="97" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dynamicprograming/Knapsack.kt">
+    <entry file="file://$PROJECT_DIR$/src/heap/MaxHeap.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+        <state relative-caret-position="101">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/BST.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-581">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interview/DeepthOfViewGroup.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
         </state>
       </provider>
     </entry>
